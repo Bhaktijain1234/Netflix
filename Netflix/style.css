@@ -1,0 +1,59 @@
+body {
+    background-color: #141414;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #e50914;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-switcher {
+    display: flex;
+    align-items: center;
+}
+
+.profile-switcher label {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+#profile-select {
+    padding: 5px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.movie {
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.movie:hover {
+    transform: scale(1.05);
+}
